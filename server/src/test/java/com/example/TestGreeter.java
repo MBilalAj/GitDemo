@@ -12,6 +12,8 @@ public class TestGreeter {
 
   private Greeter greeter;
 
+  System.out.println("Testline");
+  
   @Before
   public void setup() {
     greeter = new Greeter();
